@@ -19,17 +19,19 @@ body {
 	color: darkgray; 
 	background: transparent url(Fire.jpg)top left no-repeat;
 	padding: 0;
+	font-family: "disturbo", georgia, times;
 	}
 p { 
 	margin-top: 0; 
 	text-align: justify;
+	font-family:"disturbo", georgia, times;
 	}
 h3 { 
 	font: italic normal 1.4em georgia, sans-serif;
-	border-top: 2px black solid;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: lightgreen;
+	font-family: "disturbo", georgia, times;
 	}
 a:link { 
 	font-weight: bold; 
@@ -86,22 +88,37 @@ header h1 {
 }
 
 #zen-preamble{
-	width: 400px;
-	float: right;
+	width: 460px;
+	float: left;
 	border: 2px black solid;
 }
 
 #zen-explanation{
-	width: 400px;
+	width: 520px;
 	float: right;
 	border: 2px black solid;
 }
 
 #zen-participation{
-	float: right;
+	float: left;
+	border: 2px black solid;
+	width: 950px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
+#zen-benefits{
+	float: right;
+	border: 2px black solid;
+	width: 270px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
 
+#zen-requirements{
+	float: left;
+	border: 2px black solid;
+}
 
 .summary {
 	clear: both; 
@@ -122,7 +139,6 @@ header h1 {
 .supporting {	
 	padding-left: 10px; 
 	margin-bottom: 40px;
-	border: 2px black solid;
 	}
 
 footer { 
@@ -130,6 +146,7 @@ footer {
 	}
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
+	float: right;
 	}
 
 .sidebar {
